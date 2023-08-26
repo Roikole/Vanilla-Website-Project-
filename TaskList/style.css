@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(100deg, cyan, coral);
+}
+
+.container {
+    background-color: tomato;
+    margin: 50px;
+    padding: 30px;
+    border: 10px solid purple;
+    text-align: center;
+}
+
+.container input {
+    background-color: wheat;
+    margin: 20px 20px;
+    font-size: 30px;
+}
+
+#tasks {
+    background-color: crimson;
+    margin: 50px 300px;
+    padding: 50px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+#tasks li {
+    background-color: #333;
+    color: #fff;
+    margin: 10px 30px;
+    padding: 20px;
+    border: 5px solid gold;
+    text-align: left;
+}
+
+#tasks li button {
+    position:absolute;
+    margin-top: -10px;
+    right: 22%;
+    font-size: 30px;
+    color: #333;
+    border-radius: 80%;
+}
